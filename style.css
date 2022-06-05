@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: nunito;
+}
+
+body {
+  background: #173938;
+  margin: 150px auto;
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  background: rgb(17, 38, 39);
+  border-radius: 6px;
+  color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 380px;
+  height: 140px;
+  border: 2px solid rgb(3, 65, 3);
+}
